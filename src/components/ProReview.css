@@ -1,0 +1,17 @@
+
+
+.proReview-cont-carousel{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    /* background-color: aqua; */
+    overflow: hidden;
+    text-align: center;
+}
+.proReview-container{
+    min-width: 300vw;
+    height: 70vh;
+    /* transform: translateX(-200vw); */
+    transition: 1s ease;
+    display: flex; 
+}

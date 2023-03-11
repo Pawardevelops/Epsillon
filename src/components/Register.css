@@ -1,0 +1,12 @@
+.form-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: cadetblue;
+    width: 400px;
+    padding: 23px;
+}

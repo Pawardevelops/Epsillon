@@ -1,0 +1,49 @@
+.carousel{
+    height: 100vh;
+    position: relative;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+.container{
+    width: 300vw;
+    height: 89vh;
+    /* transform: translateX(-200vw); */
+    transition: 1s ease;
+    display: flex;
+}
+
+.carousel-item{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: ce;
+    /* background-color: aqua; */
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.btn-car{
+    position: absolute;
+}
+
+.btn-left{
+    top: 50%;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-right{
+    top: 50%;
+    right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
